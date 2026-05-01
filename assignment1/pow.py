@@ -13,7 +13,7 @@ while True:
     h = hashlib.sha256(prefix + nonce_bytes).digest()
 
     if h[:3] == b'\x00\x00\x00' and h[3] < 16:
-        print("SUCCESS")
+        print("Nonce and Hash Successful.")
         print("Nonce:", nonce)
         print("Hash:", h.hex())
         break
