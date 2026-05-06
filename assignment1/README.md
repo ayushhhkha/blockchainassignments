@@ -2,7 +2,8 @@
 
 In order to run this the best way is to do it in a python virtual environment. Assuming this is using WSL:
 
-`python3 -m venv .venv`
+`python3 -m venv .venv` 
+
 `source .venv/bin/activate`
 
 Ensure all dependencies are downloaded using the following:
